@@ -88,4 +88,7 @@ function runTest() {
     document.getElementById("output").textContent = log.join("\n");
 }
 
+// Run tests
+runTest();
+
 
