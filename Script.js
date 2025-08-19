@@ -23,3 +23,7 @@ class PerishableProduct extends Product {
         super(name, price, quantity);
         this.expirationDate = expirationDate;
     }
+    toString() {
+        return `${super.toString()}, Expiration Date: ${this.expirationDate}`;
+    }
+}
