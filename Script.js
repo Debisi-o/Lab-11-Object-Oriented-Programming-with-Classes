@@ -53,3 +53,9 @@ function runTest() {
         console.log(msg);
         log.push(msg);
     };
+    // Create products
+    const product1 = new Product("Apple", 2.5, 50);
+    const product2 = new Product("Shampoo", 5.99, 20);
+    const product3 = new Product("Bread", 1.2, 30);
+    const perishable1 = new PerishableProduct("Milk", 1.5, 10, "2024-12-31");
+    const perishable2 = new PerishableProduct("Yogurt", 2.0, 15, "2024-10-15");
