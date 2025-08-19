@@ -72,4 +72,8 @@ function runTest() {
     output("=== Inventory BEFORE Discount ===");
     output(`Total Value: $${myStore.getInventoryValue().toFixed(2)}`);
 
+    // Apply 15% discount
+    Product.applyDiscount(myStore.inventory, 0.15);
+
+
 
