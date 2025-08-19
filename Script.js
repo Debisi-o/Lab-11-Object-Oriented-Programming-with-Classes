@@ -47,3 +47,9 @@ class Store {
         );
     }
 }
+function runTest() {
+    const log = [];
+    const output = (msg) => {
+        console.log(msg);
+        log.push(msg);
+    };
