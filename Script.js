@@ -59,3 +59,11 @@ function runTest() {
     const product3 = new Product("Bread", 1.2, 30);
     const perishable1 = new PerishableProduct("Milk", 1.5, 10, "2024-12-31");
     const perishable2 = new PerishableProduct("Yogurt", 2.0, 15, "2024-10-15");
+    // Create store
+    const myStore = new Store();
+    myStore.addProduct(product1);
+    myStore.addProduct(product2);
+    myStore.addProduct(product3);
+    myStore.addProduct(perishable1);
+    myStore.addProduct(perishable2);
+
