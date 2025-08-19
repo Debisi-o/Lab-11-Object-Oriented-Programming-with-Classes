@@ -84,5 +84,8 @@ function runTest() {
     const found = myStore.findProductByName("Milk");
     output(found ? found.toString() : "Product not found");
 
+     // Display in browser
+    document.getElementById("output").textContent = log.join("\n");
+}
 
 
