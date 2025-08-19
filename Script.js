@@ -79,5 +79,10 @@ function runTest() {
     output("\n=== Inventory AFTER 15% Discount ===");
     output(`Total Value: $${myStore.getInventoryValue().toFixed(2)}`);
 
+    // Find product
+    output("\n=== Find Product By Name ===");
+    const found = myStore.findProductByName("Milk");
+    output(found ? found.toString() : "Product not found");
+
 
 
